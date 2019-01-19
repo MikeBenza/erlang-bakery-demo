@@ -1,0 +1,16 @@
+{application, bakery,
+ [{description, "A bakery simulation showing off OTP"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { bakery_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Creative Commons Attribution (CC BY)"]},
+  {links, []}
+ ]}.
